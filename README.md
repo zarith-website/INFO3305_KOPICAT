@@ -41,7 +41,8 @@ The current attendance system faces several challenges. This is because manual a
 
 
 ## 5. ERD
-!ERD Diagram
+[!ERD Diagram
+](https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/ERD%20Diagram.jpeg?raw=true)
 
 ## 6. Sequence Diagram
 [Sequence Diagram.jpeg
