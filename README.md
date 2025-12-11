@@ -1,6 +1,8 @@
-# INFO3305_KOPICAT
-INFO 3305 SECTION 4 BY KOPICAT - STUDENT ATTENDANCE MANAGEMENT SYSTEM (SAMS)
-# Student Attendance Management System (SAMS)
+# STUDENT ATTENDANCE MANAGEMENT SYSTEM (SAMS)
+
+**Course:** INFO 3305 Web Application Development  
+**Semester:** 1, 2025/2026 — Section 4  
+**Submission deadline:** 12/12/2025
 
 ## Group Members
 - Ahmad Faiz Bin Abdul Karim (2316083)
@@ -103,6 +105,6 @@ sequenceDiagram
 
 ## 8. Mock-up
 https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Log%20In.jpeg?raw=true
-
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Dashboard.jpeg?raw=true
 
 ---
