@@ -40,13 +40,63 @@ The current attendance system faces several challenges. This is because manual a
 | Dashboard Overview        | View summary of total students, classes, and attendance percentage.            |
 
 
-## 5. ERD
-[!ERD Diagram
-](https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/ERD%20Diagram.jpeg?raw=true)
+## 5. Database Design (ERD)
+
+```mermaid
+erDiagram
+    Classrooms {
+        int id PK
+        string name
+        int teacher_id
+        datetime updated_at
+        datetime created_at
+    }
+
+    Students {
+        int id PK
+        string name
+        int student_id
+        int classroom_id FK
+        datetime created_at
+    }
+
+    Attendances {
+        int id PK
+        date date
+        string status
+        int student_id FK
+        datetime created_at
+    }
+
+    Classrooms ||--o{ Students : "has"
+    Students ||--o{ Attendances : "records"
+```
 
 ## 6. Sequence Diagram
-[Sequence Diagram.jpeg
-](https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Sequence%20Diagram.jpeg?raw=true)
+
+```mermaid
+sequenceDiagram
+    autonumber
+
+    participant T as Teacher (User)
+    participant V as Web Browser (View)
+    participant C as Laravel Controller
+    participant M as Model (Eloquent/DB)
+
+    T ->> V: Open "Mark Attendance" Page
+    V ->> C: GET /attendance/create
+    C ->> M: Retrieve class and student list
+    M -->> C: Return data
+    C -->> V: Render attendance form (Blade View)
+    V -->> T: Display Attendance Form
+
+    T ->> V: Submit attendance data
+    V ->> C: POST /attendance/store
+    C ->> M: Save attendance record
+    M -->> C: Confirm success
+    C -->> V: Redirect to attendance list view
+    V -->> T: Display "Attendance Recorded Successfully"
+```
 
 ## 7. References
 - Zuanuwar, S. H. (2020). *The Influence Student Attendance Management System on Academic Performance*. Journal of Social Transformation and Education.
