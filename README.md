@@ -44,7 +44,8 @@ The current attendance system faces several challenges. This is because manual a
 !ERD Diagram
 
 ## 6. Sequence Diagram
-Sequence Diagram.jpeg
+[Sequence Diagram.jpeg
+](https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Sequence%20Diagram.jpeg?raw=true)
 
 ## 7. References
 - Zuanuwar, S. H. (2020). *The Influence Student Attendance Management System on Academic Performance*. Journal of Social Transformation and Education.
