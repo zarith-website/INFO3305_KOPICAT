@@ -21,6 +21,8 @@ The Student Attendance Management System (SAMS) is a web-based application desig
 Laravel’s technologies such as Eloquent ORM, Blade Template Engine, and Artisan CLI are used to manage data, build responsive user interfaces, and automate backend tasks. This application allows administrators and teachers to manage student records, classes, and attendance efficiently through a user-friendly dashboard accessible from any device.
 
 ## 2. Problem Description
+In many educational institutions, instructors still rely on manual methods such as paper registers or spreadsheets to record attendance. This process is time-consuming, prone to mistakes, and difficult to maintain over time. It also affects the institution’s ability to monitor student participation, which may influence academic performance (Zuanuwar, 2020). The proposed application will be a web-based system accessible through any browser, allowing instructors and administrators to manage attendance more effectively and securely.
+
 The current attendance system faces several challenges. This is because manual attendance tracking is inefficient and error-prone. There is no centralized system for storing attendance records, making reports and analysis difficult. Additionally, the existing methods are not scalable or easily accessible. These challenges highlight the need for modern, automated solutions.
 
 ## 3. Objectives
