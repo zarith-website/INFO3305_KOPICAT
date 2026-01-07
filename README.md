@@ -34,24 +34,21 @@ The current attendance system faces several challenges. This is because manual a
 - To provide real-time insights into student attendance rates for performance analysis.
 - To implement Laravel’s MVC structure for better separation of logic, scalability, and maintainability.
 
-##1.4 Project Scope
-	1.4.1 Scope
+## 4. Project Scope
 The Student Attendance Management System (SAMS) aims to make the attendance process faster, easier, and more reliable by replacing manual methods with a digital system. The system allows lecturers to take attendance, view student records, and generate reports through an online platform. Administrators can manage users, classes, and attendance data in one place.
-The main features include:
-Secure login for admin and lecturers.
-Managing student and class information.
-Recording and editing attendance.
-Generating attendance reports.
-A simple, user-friendly dashboard that works on multiple devices.
-
-	1.4.2 Targeted User
+	The main features include:
+		- Secure login for admin and lecturers.
+		- Managing student and class information.
+		- Recording and editing attendance.
+		- Generating attendance reports.
+		- A simple, user-friendly dashboard that works on multiple devices.
+	Targeted User
 	SAMS is designed mainly for:
-Administrators – to manage user accounts, student details, and reports.
-Lecturers – to take attendance, update records, and monitor attendance trends.
-Students – in the future, they may be able to view their own attendance records.
-
-	1.4.3 Specific Platform
-The system will be a web-based application built using the Laravel Framework with a MySQL database. It can run on any browser such as Chrome, Firefox, or Edge, and will use HTML, CSS, Blade, and JavaScript for the interface. The system can be hosted locally or on a cloud platform.
+		1. Administrators – to manage user accounts, student details, and reports.
+		2. Lecturers – to take attendance, update records, and monitor attendance trends.
+		3. Students – in the future, they may be able to view their own attendance records.
+	Specific Platform
+		The system will be a web-based application built using the Laravel Framework with a MySQL database. It can run on any browser such as Chrome, 				Firefox, or Edge, and will use HTML, CSS, Blade, and JavaScript for the interface. The system can be hosted locally or on a cloud platform.
 
 
 ## 4. Features and Description
