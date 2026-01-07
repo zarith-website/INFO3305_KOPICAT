@@ -101,11 +101,117 @@ sequenceDiagram
     C -->> V: Redirect to attendance list view
     V -->> T: Display "Attendance Recorded Successfully"
 ```
+## 7. Implementation
+The system was implemented using **Laravel 10**, **PHP 8**, **MySQL**, and **Bootstrap**.  
 
-## 7. References
+- **Environment Setup:** Installed Laravel framework, configured `.env` file, and connected to MySQL database.  
+- **Database Migrations:** Created tables for `students`, `classrooms`, and `attendances` using Laravel migrations.  
+- **Models & Controllers:** Developed Eloquent models and controllers to handle CRUD operations for students, classes, and attendance.  
+- **Routes:** Defined web routes for login, student management, class management, and attendance marking.  
+- **Frontend (Blade Templates):** Designed user interface pages (login, dashboard, attendance form, reports) using Blade, HTML, CSS, and Bootstrap.  
+- **Integration:** Connected frontend forms with backend logic to ensure smooth data flow and validation.  
+
+### Example Code Snippet
+```php
+// AttendanceController@store
+public function store(Request $request) {
+    $validated = $request->validate([
+        'classroom_id' => 'required|exists:classrooms,id',
+        'records' => 'required|array',
+    ]);
+    foreach ($request->records as $record) {
+        Attendance::create([
+            'student_id' => $record['student_id'],
+            'classroom_id' => $request->classroom_id,
+            'date' => now(),
+            'status' => $record['status'],
+        ]);
+    }
+}
+
+
+```
+## 8. Testing
+
+Testing was conducted in two phases:
+
+### 🔹 Unit Testing
+- Verified CRUD operations for students, classes, and attendance records.  
+- Ensured validation rules worked correctly (e.g., preventing duplicate student entries).  
+- Checked database integrity after migrations and updates.  
+
+### 🔹 User Acceptance Testing (UAT)
+- Simulated the full workflow: login → mark attendance → generate report.  
+- Confirmed that lecturers and administrators could navigate the system smoothly.  
+- Validated that attendance records were stored and displayed correctly.  
+
+### 🔹 Bug Fixes
+- Addressed issues such as incorrect data rendering in reports.  
+- Fixed validation errors in forms (e.g., empty fields, duplicate entries).  
+- Improved UI alignment and responsiveness across devices.  
+
+### 📸 Screenshots
+*(Insert screenshots of test results or console outputs here)*  
+- Example: Validation error when adding duplicate student.  
+- Example: Successful attendance submission message.  
+- Example: Generated attendance report output.  
+
+## 9. Results & Screenshots
+
+The final system is fully functional and meets the objectives outlined in the proposal.  
+
+### 📸 Login Page
+![Login Page](assets/login.png)  
+
+### 📸 Dashboard
+![Dashboard](assets/dashboard.png)  
+
+### 📸 Attendance Form
+![Attendance Form](assets/attendance.png)  
+
+### 📸 Reports Page
+![Reports Page](assets/reports.png)  
+
+The system successfully automates attendance tracking, centralizes data, and provides analytics.  
+Challenges such as time constraints and limited Laravel experience were overcome through teamwork and iterative testing.  
+
+## 10. Constraints
+
+- Limited time within the semester restricted feature expansion.  
+- Restricted resources (student laptops, free hosting).  
+- Budget limitations requiring open-source tools.  
+- Varying levels of Laravel expertise among team members.  
+- Need for stable internet connectivity for testing and deployment.  
+- Security concerns in handling student data required careful validation and access control.
+
+## 11. Significance of the Project
+
+SAMS provides a practical solution to a common problem in education.  
+
+- **Lecturers:** Reduced paperwork and faster attendance marking.  
+- **Administrators:** Centralized access to data and reporting tools.  
+- **Institutions:** Improved accuracy, scalability, and performance tracking.  
+
+The project also allowed our group to apply Laravel concepts in a real-world context, enhancing both technical and teamwork skills. 
+
+## 12. Conclusion
+
+SAMS is a Laravel-based web application that digitizes attendance management.  
+It replaces manual methods with a secure, scalable, and user-friendly system.  
+
+The project demonstrates our ability to design, implement, and test a complete MVC web application.  
+It also highlights the importance of teamwork, problem-solving, and applying theoretical knowledge in a practical context.  
+
+### 🔮 Future Improvements
+- Student self-check attendance.  
+- Mobile app integration for easier access.  
+- Advanced analytics and reporting features.  
+- Role-based access control for enhanced security.  
+
+## 13. References
 - Zuanuwar, S. H. (2020). *The Influence Student Attendance Management System on Academic Performance*. Journal of Social Transformation and Education.
 
-## 8. Mock-up
+## 14. Mock-up
 - https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Log%20In.jpeg?raw=true
 - https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Dashboard.jpeg?raw=true
 
