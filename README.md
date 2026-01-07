@@ -172,6 +172,11 @@ sequenceDiagram
     C -->> V: Redirect to attendance list view
     V -->> T: Display "Attendance Recorded Successfully"
 ```
+## Mockup
+- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Proposal%20-%20Mockup%20Log%20In.jpeg
+- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Proposal%20-%20Mockup%20Dashboard.jpeg
+
+---
 
 # 📑 Part B: Final Report
 
@@ -347,29 +352,96 @@ sequenceDiagram
     C -->> V: Redirect to attendance list view
     V -->> T: Display "Attendance Recorded Successfully"
 ```
+
 ## Mockup
+- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Proposal%20-%20Mockup%20Log%20In.jpeg
+- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Proposal%20-%20Mockup%20Dashboard.jpeg
 
-- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Log%20In.jpeg?raw=true
-- https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Mockup%20Dashboard.jpeg?raw=true
-
-## Website Layout
+## Coding
 
 ### Controller
 #### 1. AttendanceController.php
 https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20AttendanceController.php.png 
 
-#### 2. AttendanceController.php
+#### 2. ClassroomController.php
 https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20ClassroomController.php.png 
 
-### 📸 Attendance Form
-![Attendance Form](assets/attendance.png)  
+#### 3. Controller.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20Controller.php.png
 
-### 📸 Add New Student
-![Attendance Form](assets/attendance.png)  
+#### 4. DashboardController.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20DashboardController.php.png
 
-### 📸 Add New Classroom
-![Attendance Form](assets/attendance.png)  
+#### 5. StudentController.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20StudentController.php.png
 
-### 📸 Classroom Student List
-![Attendance Form](assets/attendance.png)  
+### Route
+#### 1. web.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Route%20-%20web.php.png
+
+#### 2. console.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Route%20-%20console.php.png
+
+#### 3. channels.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Route%20-%20channels.php.png
+
+#### 4. api.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Route%20-%20api.php.png
+
+### View
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/view.png
+
+### Models
+#### 1. Attendance.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Model%20-%20Attendance.php.png
+
+#### 2. Classroom.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Model%20-%20Classroom.php.png
+
+#### 3. Student.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Model%20-%20Student.php.png
+
+#### 4. User.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Model%20-%20User.php.png
+
+### User Authentication
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/User%20Authentication.png
+
+## User Interface
+### 1. Home Page
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Home%20Page.jpeg
+
+### 2. Login Page
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Login%20Page.jpeg
+
+### 3. Register Page
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Register%20Page.jpeg
+
+### 4. Forgot Password Page
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Forgot%20Password%20Page.jpeg
+
+### 5. Dashboard
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Dashboard.jpeg
+
+### 6. Add New Classroom
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Add%20New%20Classroom.jpeg
+
+### 7. Classroom Created
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Classroom%20Created.jpeg
+
+### 8. Classroom
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Classroom.jpeg
+
+### 9. Classroom Student List
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Classroom%20Student%20List.jpeg
+
+### 10. Add New Student
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Add%20New%20Student.jpeg
+
+### 11. Search
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Search.jpeg
+
+### 12.Dashboard after Adding Students
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/UI%20-%20Dashboard%20after%20Adding%20Student.jpeg
+
 ---
