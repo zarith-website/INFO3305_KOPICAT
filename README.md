@@ -79,6 +79,7 @@ The development of SAMS follows the System Development Life Cycle (SDLC) to ensu
 - Designing the User Interface (UI) mockups and the Sequence Diagrams to visualize user interactions.
 
 **Phase 3: Implementation (Development)**
+
 **1. Setting up the Environment**
 - Installing Laravel and connecting it to the database so the project is ready to start.
 **2. Backend Development**
