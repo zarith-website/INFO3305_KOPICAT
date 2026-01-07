@@ -221,7 +221,6 @@ It also highlights the importance of teamwork, problem-solving, and applying the
 
 ---
 
-**Final Report**
 # STUDENT ATTENDANCE MANAGEMENT SYSTEM (SAMS)
 
 **Course:** INFO 3305 Web Application Development  
@@ -240,7 +239,7 @@ Dr. Najhan bin Muhamad Ibrahim
 
 ---
 
-# 📑 Part A: Proposal
+# 📑 Part B: Final Report
 
 ## 1. Introduction
 The Student Attendance Management System (SAMS) is a web-based application designed to simplify and digitize the process of recording and managing student attendance in educational institutions. Traditionally, attendance is marked manually on paper, whichW can lead to inefficiency, data loss and errors. SAMS, developed using the Laravel Framework, utilizes the Model-View-Controller (MVC) architecture to ensure a structured and scalable system.
