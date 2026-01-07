@@ -355,11 +355,11 @@ sequenceDiagram
 ## Website Layout
 
 ### Controller
-#### 
-![Login Page](assets/login.png)  
+#### 1. AttendanceController.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20AttendanceController.php.png 
 
-### 📸 Dashboard
-![Dashboard](assets/dashboard.png)  
+#### 2. AttendanceController.php
+https://github.com/zarith-website/INFO3305_KOPICAT/blob/main/Controller%20-%20ClassroomController.php.png 
 
 ### 📸 Attendance Form
 ![Attendance Form](assets/attendance.png)  
