@@ -65,6 +65,35 @@ The SAMS project has a few limitations that may affect its development and testi
 - Security: The system stores student data, so extra care is needed to prevent unauthorized access or data loss.
 - Maintenance: After deployment, the system may need updates or bug fixes, but ongoing maintenance could be limited due to time and resource constraints.
 
+## 6 Project Stages
+The development of SAMS follows the System Development Life Cycle (SDLC) to ensure a structured and organized workflow. The project is divided into the following five stages:
+
+**Phase 1: Requirement Analysis & Planning**
+- Identifying the core problems with the current manual attendance system.
+- Gathering requirements from potential users (lecturers and admins).
+- Defining the project objectives, scope, and feasibility.
+**Phase 2: System Design**
+- Designing the system architecture based on the MVC (Model-View-Controller) pattern.
+- Creating the Entity Relationship Diagram (ERD) to structure the database.
+- Designing the User Interface (UI) mockups and the Sequence Diagrams to visualize user interactions.
+**Phase 3: Implementation (Development)**
+1. Setting up the Environment
+- Installing Laravel and connecting it to the database so the project is ready to start.
+2. Backend Development
+- Creating the database tables (using migrations) to store student and attendance info, and writing the code (controllers) to handle the logic, like saving or deleting records.
+3. Frontend Development
+- Designing the website pages (like the login screen and dashboard) using Laravel Blade, HTML, and CSS so it looks good and is easy to use.
+4. Integration
+- Connecting the design (Frontend) with the logic (Backend) to make sure the buttons and forms work correctly.
+**Phase 4: Testing**
+- Unit Testing: Checking individual components (e.g., ensuring a student cannot be added twice).
+- User Acceptance Testing (UAT): Verifying that the flow from login to marking attendance works smoothly and meets the objectives defined in Phase 1.
+- Debugging errors and optimizing code performance.
+**Phase 5: Documentation & Deployment**
+- Compiling the final project report, including system documentation and user manuals.
+- Preparing the presentation slides for the project defense.
+- Final submission of the source code and documentation.
+
 ## 5. Database Design (ERD)
 
 ```mermaid
