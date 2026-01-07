@@ -77,13 +77,13 @@ The development of SAMS follows the System Development Life Cycle (SDLC) to ensu
 - Creating the Entity Relationship Diagram (ERD) to structure the database.
 - Designing the User Interface (UI) mockups and the Sequence Diagrams to visualize user interactions.
 **Phase 3: Implementation (Development)**
-1. Setting up the Environment
+**1. Setting up the Environment**
 - Installing Laravel and connecting it to the database so the project is ready to start.
-2. Backend Development
+**2. Backend Development**
 - Creating the database tables (using migrations) to store student and attendance info, and writing the code (controllers) to handle the logic, like saving or deleting records.
-3. Frontend Development
+**3. Frontend Development**
 - Designing the website pages (like the login screen and dashboard) using Laravel Blade, HTML, and CSS so it looks good and is easy to use.
-4. Integration
+**4. Integration**
 - Connecting the design (Frontend) with the logic (Backend) to make sure the buttons and forms work correctly.
 **Phase 4: Testing**
 - Unit Testing: Checking individual components (e.g., ensuring a student cannot be added twice).
@@ -106,7 +106,7 @@ In summary, SAMS is a Laravel-based web application that aims to improve the way
 Zuanuwar, S. H. binti M. (2020). THE INFLUENCE STUDENT ATTENDANCE MANAGEMENT SYSTEM ON ACADEMIC PERFORMANCE. Journal of Social Transformation and Education, 1(1), 26–62. https://doi.org/10.54480/jste.v1i1.3
 
 
-
+## Appendix
 ## 5. Database Design (ERD)
 
 ```mermaid
