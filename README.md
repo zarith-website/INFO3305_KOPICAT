@@ -54,7 +54,7 @@ Specific Platform
 The system will be a web-based application built using the Laravel Framework with a MySQL database. It can run on any browser such as Chrome, 				Firefox, or Edge, and will use HTML, CSS, Blade, and JavaScript for the interface. The system can be hosted locally or on a cloud platform.
 
 
-## 5 Constraints
+## 5. Constraints
 The SAMS project has a few limitations that may affect its development and testing:
 - Time: The project must be finished within the semester, so there is limited time for testing, adding new features, or improving the design.
 - Resources: Development relies on student laptops and free tools. This limits how much data can be stored or processed.
@@ -65,7 +65,7 @@ The SAMS project has a few limitations that may affect its development and testi
 - Security: The system stores student data, so extra care is needed to prevent unauthorized access or data loss.
 - Maintenance: After deployment, the system may need updates or bug fixes, but ongoing maintenance could be limited due to time and resource constraints.
 
-## 6 Project Stages
+## 6. Project Stages
 The development of SAMS follows the System Development Life Cycle (SDLC) to ensure a structured and organized workflow. The project is divided into the following five stages:
 
 **Phase 1: Requirement Analysis & Planning**
@@ -93,6 +93,19 @@ The development of SAMS follows the System Development Life Cycle (SDLC) to ensu
 - Compiling the final project report, including system documentation and user manuals.
 - Preparing the presentation slides for the project defense.
 - Final submission of the source code and documentation.
+
+## 7. Gantt Chart
+
+## 8. Significance of the Project
+The project will benefit instructors by reducing the paperwork and saving time, administrators by providing centralized and easily accessible data, and institutions by improving data accuracy and enabling performance tracking. Overall, SAMS will enhance efficiency, reliability and scalability in attendance management.
+
+## 8. Summary
+In summary, SAMS is a Laravel-based web application that aims to improve the way attendance is recorded and managed in educational institutions. It addresses the inefficiencies of manual tracking and provides a scalable, secure and user-friendly solution that benefits instructors, administrators and institutions.
+
+## 9. References
+Zuanuwar, S. H. binti M. (2020). THE INFLUENCE STUDENT ATTENDANCE MANAGEMENT SYSTEM ON ACADEMIC PERFORMANCE. Journal of Social Transformation and Education, 1(1), 26–62. https://doi.org/10.54480/jste.v1i1.3
+
+
 
 ## 5. Database Design (ERD)
 
