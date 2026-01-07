@@ -54,17 +54,16 @@ Specific Platform
 The system will be a web-based application built using the Laravel Framework with a MySQL database. It can run on any browser such as Chrome, 				Firefox, or Edge, and will use HTML, CSS, Blade, and JavaScript for the interface. The system can be hosted locally or on a cloud platform.
 
 
-## 4. Features and Description
-
-| **Feature**              | **Description**                                                                 |
-|---------------------------|---------------------------------------------------------------------------------|
-| User Authentication       | Secure login for admin and teachers using Laravel Breeze or Jetstream.         |
-| Student Management (CRUD) | Add, view, edit, and delete student records.                                   |
-| Class Management          | Create and manage class lists and assign students.                             |
-| Attendance Management (CRUD) | Mark daily attendance, edit or delete records, and view history.           |
-| Reports and Analytics     | Generate attendance reports by date, class, or student.                        |
-| Dashboard Overview        | View summary of total students, classes, and attendance percentage.            |
-
+## 1.5 Constraints
+The SAMS project has a few limitations that may affect its development and testing:
+- Time: The project must be finished within the semester, so there is limited time for testing, adding new features, or improving the design.
+- Resources: Development relies on student laptops and free tools. This limits how much data can be stored or processed.
+- Budget: There is little to no funding for this project, so free hosting and open-source tools are used instead of paid ones.
+- Testing: Real users like lecturers or administrators might not always be available for testing, so the team may have to use demo data.
+- Skills: Not all team members are experts in Laravel or web development, so some parts may take longer to complete.
+- Internet: Since it’s web-based, the system needs a stable internet connection. Poor connectivity can affect system performance.
+- Security: The system stores student data, so extra care is needed to prevent unauthorized access or data loss.
+- Maintenance: After deployment, the system may need updates or bug fixes, but ongoing maintenance could be limited due to time and resource constraints.
 
 ## 5. Database Design (ERD)
 
