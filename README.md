@@ -82,10 +82,13 @@ The development of SAMS follows the System Development Life Cycle (SDLC) to ensu
 
 **1. Setting up the Environment**
 - Installing Laravel and connecting it to the database so the project is ready to start.
+
 **2. Backend Development**
 - Creating the database tables (using migrations) to store student and attendance info, and writing the code (controllers) to handle the logic, like saving or deleting records.
+
 **3. Frontend Development**
 - Designing the website pages (like the login screen and dashboard) using Laravel Blade, HTML, and CSS so it looks good and is easy to use.
+
 **4. Integration**
 - Connecting the design (Frontend) with the logic (Backend) to make sure the buttons and forms work correctly.
 
