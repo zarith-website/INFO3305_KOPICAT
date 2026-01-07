@@ -54,7 +54,7 @@ Specific Platform
 The system will be a web-based application built using the Laravel Framework with a MySQL database. It can run on any browser such as Chrome, 				Firefox, or Edge, and will use HTML, CSS, Blade, and JavaScript for the interface. The system can be hosted locally or on a cloud platform.
 
 
-## 1.5 Constraints
+## 5 Constraints
 The SAMS project has a few limitations that may affect its development and testing:
 - Time: The project must be finished within the semester, so there is limited time for testing, adding new features, or improving the design.
 - Resources: Development relies on student laptops and free tools. This limits how much data can be stored or processed.
